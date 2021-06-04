@@ -6,17 +6,27 @@
 }
 
 header{
+	/*position: relative;*/
 	width: 100%;
 	height: 100vh;
 	background-image: url('an.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+
+/*nav bar*/
+
+
+
 nav{
+	position: sticky;
 	width: 100%;
 	height: 80px;
+	top: 0;
 	background-color: black;
-	position: relative;
+	z-index: 1;
+
 
 }
 
@@ -91,7 +101,19 @@ nav .logo img{
 
 
 
+
+
+
+
+
 /*slider*/
+
+
+
+
+
+
+
 
 .maindiv{
 	width: 90%;
@@ -177,7 +199,15 @@ section{
 	animation: ease-in-out;
 }
 
+
+
+
 /*FORM*/
+
+
+
+
+
 
 .all-form{
 	/*padding-top: 30px;*/
@@ -294,7 +324,18 @@ form h1{
 	background-color:black;
 }
 
+
+
+
+
+
+
 /*GOOGLE MAP*/
+
+
+
+
+
 
 .google-map{
 	background-image: url('black.gif');
@@ -316,11 +357,6 @@ form h1{
 		width: 100%;
 		justify-content: space-around;
 }
-
-
-
-
-
 
 
 .samples .left{
@@ -353,6 +389,12 @@ form h1{
 
 
 /*FOOTER PART*/
+
+
+
+
+
+
 
 
 footer{
